@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopNest - Shop Smarter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">🛍️</span>
+        <span class="logo-text">Shop<span class="logo-accent">Nest</span></span>
+      </div>
+
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search products..." autocomplete="off" />
+      </div>
+
+      <button id="cartToggleBtn" class="cart-btn" aria-label="Open cart">
+        <span class="cart-icon">🛒</span>
+        <span id="cartCount" class="cart-count">0</span>
+      </button>
+    </div>
+
+    <div class="filter-bar" id="filterBar">
+      <button class="filter-btn active" data-category="All">All</button>
+      <button class="filter-btn" data-category="Electronics">Electronics</button>
+      <button class="filter-btn" data-category="Clothing">Clothing</button>
+      <button class="filter-btn" data-category="Footwear">Footwear</button>
+      <button class="filter-btn" data-category="Books">Books</button>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="main">
+    <div id="loader" class="loader">
+      <div class="spinner"></div>
+      <p>Loading products...</p>
+    </div>
+
+    <div id="productsGrid" class="products-grid"></div>
+
+    <div id="noProductsMsg" class="no-products hidden">
+      <span class="no-products-icon">😕</span>
+      <p>No products found</p>
+      <small>Try a different search term or category</small>
+    </div>
+  </main>
+
+  <!-- Cart overlay -->
+  <div id="overlay" class="overlay"></div>
+
+  <!-- Cart sidebar -->
+  <aside id="cartSidebar" class="cart-sidebar">
+    <div class="cart-header">
+      <h2>Your Cart</h2>
+      <button id="closeCartBtn" class="close-btn" aria-label="Close cart">&times;</button>
+    </div>
+
+    <div id="cartItems" class="cart-items"></div>
+
+    <div id="cartEmptyMsg" class="cart-empty hidden">
+      <span>🛒</span>
+      <p>Your cart is empty</p>
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Total</span>
+        <span id="cartTotal">₹0</span>
+      </div>
+      <button id="clearCartBtn" class="clear-cart-btn">Clear Cart</button>
+    </div>
+  </aside>
+
+  <!-- Toast -->
+  <div id="toast" class="toast"></div>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>

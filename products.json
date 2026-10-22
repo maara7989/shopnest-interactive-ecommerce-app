@@ -1,0 +1,16 @@
+[
+  { "id": 1, "name": "Wireless Bluetooth Headphones", "category": "Electronics", "price": 2499, "originalPrice": 3499, "rating": 4.5, "imageUrl": "https://picsum.photos/seed/headphones/400/400" },
+  { "id": 2, "name": "Smart Fitness Watch", "category": "Electronics", "price": 3999, "originalPrice": 5999, "rating": 4.2, "imageUrl": "https://picsum.photos/seed/smartwatch/400/400" },
+  { "id": 3, "name": "Portable Bluetooth Speaker", "category": "Electronics", "price": 1799, "originalPrice": 2299, "rating": 4.0, "imageUrl": "https://picsum.photos/seed/speaker/400/400" },
+  { "id": 4, "name": "Men's Casual Denim Jacket", "category": "Clothing", "price": 1899, "originalPrice": 2599, "rating": 4.3, "imageUrl": "https://picsum.photos/seed/denimjacket/400/400" },
+  { "id": 5, "name": "Women's Floral Summer Dress", "category": "Clothing", "price": 1299, "originalPrice": 1899, "rating": 4.6, "imageUrl": "https://picsum.photos/seed/dress/400/400" },
+  { "id": 6, "name": "Cotton Graphic T-Shirt", "category": "Clothing", "price": 499, "originalPrice": 799, "rating": 3.9, "imageUrl": "https://picsum.photos/seed/tshirt/400/400" },
+  { "id": 7, "name": "Men's Running Sneakers", "category": "Footwear", "price": 2999, "originalPrice": 3999, "rating": 4.4, "imageUrl": "https://picsum.photos/seed/sneakers/400/400" },
+  { "id": 8, "name": "Women's Leather Boots", "category": "Footwear", "price": 3499, "originalPrice": 4499, "rating": 4.1, "imageUrl": "https://picsum.photos/seed/boots/400/400" },
+  { "id": 9, "name": "Casual Canvas Slip-Ons", "category": "Footwear", "price": 999, "originalPrice": 1499, "rating": 3.8, "imageUrl": "https://picsum.photos/seed/slipons/400/400" },
+  { "id": 10, "name": "The Midnight Library - Novel", "category": "Books", "price": 349, "originalPrice": 499, "rating": 4.7, "imageUrl": "https://picsum.photos/seed/novelbook/400/400" },
+  { "id": 11, "name": "Atomic Habits - Self Help", "category": "Books", "price": 399, "originalPrice": 599, "rating": 4.8, "imageUrl": "https://picsum.photos/seed/habitsbook/400/400" },
+  { "id": 12, "name": "JavaScript: The Definitive Guide", "category": "Books", "price": 899, "originalPrice": 1299, "rating": 4.5, "imageUrl": "https://picsum.photos/seed/jsbook/400/400" },
+  { "id": 13, "name": "Noise Cancelling Earbuds", "category": "Electronics", "price": 1599, "originalPrice": 2199, "rating": 4.0, "imageUrl": "https://picsum.photos/seed/earbuds/400/400" },
+  { "id": 14, "name": "Women's Winter Hoodie", "category": "Clothing", "price": 1099, "originalPrice": 1599, "rating": 4.2, "imageUrl": "https://picsum.photos/seed/hoodie/400/400" }
+]
